@@ -41,7 +41,7 @@ for (int left = 0; left < size; left++)
 {
   for (int right = left +1; right < size; right++)
   {
-    if(arrayVals[left] > arrayVals[right])
+    if(arrayVals[left] < arrayVals[right])
     {
       temp = arrayVals[left];
       arrayVals[left] = arrayVals[right];
@@ -49,6 +49,8 @@ for (int left = 0; left < size; left++)
     }
   }
 }
+
+
 
 
 
